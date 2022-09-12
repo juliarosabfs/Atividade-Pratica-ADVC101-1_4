@@ -1,15 +1,19 @@
-  const firebaseConfig = {
-    apiKey: "AIzaSyDf55qboPcSgHVTlWsxcSPHck7gibumS7M",
-    authDomain: "ap-c101-adv-1-4.firebaseapp.com",
-    databaseURL: "https://ap-c101-adv-1-4-default-rtdb.firebaseio.com",
-    projectId: "ap-c101-adv-1-4",
-    storageBucket: "ap-c101-adv-1-4.appspot.com",
-    messagingSenderId: "798228784447",
-    appId: "1:798228784447:web:002b3f667e1ecf21f0df8a"
+
+	//Configurações de seu App Firebase
+ const firebaseConfig = {
+    apiKey: "AIzaSyB10Ibx6Sse5yQGdm5GAUVq77pT1gZr3qw",
+    authDomain: "kwitter-7df6c.firebaseapp.com",
+    databaseURL: "https://kwitter-7df6c-default-rtdb.firebaseio.com",
+    projectId: "kwitter-7df6c",
+    storageBucket: "kwitter-7df6c.appspot.com",
+    messagingSenderId: "317845299626",
+    appId: "1:317845299626:web:ff2658c64fffae1af58bd3"
   };
 
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+//  const app = initializeApp(firebaseConfig);
+
+firebase.initializeApp(firebaseConfig);
 
 function addUser()
 {
@@ -18,5 +22,4 @@ function addUser()
     purpose : "adding user"
   });
 }
-
 
